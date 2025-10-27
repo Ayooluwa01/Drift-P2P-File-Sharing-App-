@@ -1,4 +1,10 @@
 {
   "name": "Drift",
-  "displayName": "Drift"
+  "displayName": "Drift",
+  "extra": {
+    "eas": {
+      "projectId": "3cb42966-a90b-427b-926b-f970918829c2"
+    }
+  },
+  "owner": "olusegunstephen01"
 }
