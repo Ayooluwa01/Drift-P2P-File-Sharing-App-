@@ -6,5 +6,11 @@
       "projectId": "3cb42966-a90b-427b-926b-f970918829c2"
     }
   },
-  "owner": "olusegunstephen01"
+  "owner": "olusegunstephen01",
+  "runtimeVersion": "1.0.0",
+  "updates": {
+    "url": "https://u.expo.dev/3cb42966-a90b-427b-926b-f970918829c2"
+  },
+  "android": {},
+  "ios": {}
 }

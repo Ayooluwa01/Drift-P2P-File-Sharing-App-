@@ -6,13 +6,42 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "channel": "development",
+      "android": {
+        "gradleCommand": "assembleDebug"
+      },
+      "ios": {
+        "buildConfiguration": "Debug"
+      }
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "channel": "preview",
+      "android": {
+        "gradleCommand": "assembleRelease"
+      },
+      "ios": {
+        "buildConfiguration": "Release"
+      }
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "channel": "production",
+      "android": {
+        "gradleCommand": "bundleRelease"
+      },
+      "ios": {
+        "buildConfiguration": "Release"
+      }
+    },
+    "simulator": {
+      "distribution": "internal",
+      "channel": "development",
+      "ios": {
+        "simulator": true,
+        "buildConfiguration": "Debug"
+      }
     }
   },
   "submit": {
